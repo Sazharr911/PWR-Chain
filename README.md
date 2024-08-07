@@ -13,3 +13,8 @@ java -jar validator.jar get-private-key password
 
 ## پرایویت کی رو باید در والت [PWR WALLET](https://chromewebstore.google.com/u/3/detail/kennjipeijpeengjlogfdjkiiadhbmjl) وارد کنید .
 ## همچنین برای دریافت فاست باید از دیسکوردش اقدام کنید => [لینک دیسکورد ](https://discord.gg/WjdXzrR3)
+
+# ران کردن نود از دایکیومنت رسمی پروژه میتونید دایکیومنت زیر ببینید
+[https://github.com/pwrlabs/PWR-Validator-Node](https://github.com/pwrlabs/PWR-Validator-Node)
+
+## ولی همین دایکیومنت کاملا کافی است برای اجرا نودتون - اگر خواستید ولیدیتور شید میتونید درخواست بدید داخل دیسکوردشون تا بررسی کنند .
