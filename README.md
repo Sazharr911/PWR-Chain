@@ -6,7 +6,7 @@
 wget https://raw.githubusercontent.com/xONEIROS/PWR-Chain/main/pwr.sh && chmod +x pwr.sh && ./pwr.sh
 ```
 ### یادتون نره رفتید داخل بخش `screen -Rd pwr` حتما با `ctrl + A + D` خارج شید 
-2. برای مشاهده پرایویت کی و وارد کردنش به والت دستور زیر رو اجرا کنید - در کد زیر جای پسورد نوشته باشد رمزی که زمان ران کردن نود دادید رو بزنید
+2. برای مشاهده پرایویت کی و وارد کردنش به والت دستور زیر رو اجرا کنید - در کد زیر رو ذر پوشه نود اجرا کنید 
 ```
 java -jar validator.jar get-private-key password
 ```
