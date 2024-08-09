@@ -72,6 +72,18 @@ get_and_store_password() {
     print_success "Password stored securely"
 }
 
+run_validator() {
+    local key="<your key>"  # Replace <your key> with the actual key
+    local password="password"  # Replace "password" with the actual password if needed
+
+    print_info "Running validator with key $key..."
+    if sudo java -jar validator.jar --import-key "$key" "$password"; then
+        print_success "Validator ran successfully."
+    else
+        echo "[ERROR] Failed to run validator."
+    fi
+}
+
 start_validator_node() {
     print_info "Starting validator node..."
     local server_ip
